@@ -2,6 +2,16 @@
     <div class="sidebar-sticky">
         <ul class="nav flex-column">
             <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-2 mb-1 text-muted">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </h6>
+            <li class="nav-item">
+                <a class="nav-link" href="/">
+                    <i class="far fa-circle fa-sm"></i>
+                    index
+                </a>
+            </li>
+            <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-2 mb-1 text-muted">
                 <i class="fa fa-user fa-md"></i>
                 <span>Professor</span>
             </h6>
@@ -22,7 +32,7 @@
                 </a>
             </li>
             <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-2 mb-1 text-muted">
-                    <i class="fa fa-address-book fa-md"></i>
+                <i class="fas fa-th"></i>
                     <span>Grade</span>
             </h6>
             <li class="nav-item">
