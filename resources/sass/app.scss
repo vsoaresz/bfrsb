@@ -1,0 +1,32 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// html,body,#app {
+//   height: 100%;
+// }
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn.btn-xg {
+  width: 100%;
+  padding: 100px 40px;
+  font-size: 1.9em;
+}
+
+@media screen and (max-width: 900px) {
+  .btn.btn-xg {
+    font-size: 1em;
+    padding: 50px 0px;
+    text-align: center;
+  }
+}
